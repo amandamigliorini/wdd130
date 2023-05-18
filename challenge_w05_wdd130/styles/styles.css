@@ -1,0 +1,30 @@
+#content{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #737373;
+    margin: 0;
+}
+
+.image-top {    
+    width: 100%;    
+}
+main {
+    
+    
+    text-align: center; 
+    
+}
+
+main img {
+    height: 300px;
+    width: 300px;
+    border: #444444 solid;
+    border-width: 20px;
+    border-radius: 400px;
+    margin: 40px;
+    
+}
+
