@@ -109,7 +109,7 @@ h4 {
     color: #E4CA22;  
     text-decoration: none;  
     font-family: Hind, Helvetica, sans-serif;
-    font-size: 2em;
+    font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
@@ -125,7 +125,7 @@ h4 {
     color: #E4CA22;
     text-decoration: none; 
     font-family: Hind, Helvetica, sans-serif;
-    font-size: 2em;
+    font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
@@ -144,13 +144,14 @@ h4 {
 }
 .msg h2 {
     color: #F0F0C9;
-    font-family: "Waiting for the Sunrise", 'Times New Roman', Times, serif;
+    font-family:  Hind, Helvetica, sans-serif;    
+    line-height: 1.5em
     
 }
 .msg p{
     color: #F0F0C9;
     font-family: Hind, Helvetica, sans-serif;
-    font-size: 2em;
+    font-size: 0.8em;
     padding-bottom: 15px;
 }
 
