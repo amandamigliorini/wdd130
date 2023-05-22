@@ -23,8 +23,8 @@
 .second-title{
      font-size: 5em;
     color: rgb(174, 24, 24);
-    grid-column: 2/2;
-    grid-row: 1/1;
+    grid-column: 2/3;
+    grid-row: 1/2;
     align-self: self-end;
     text-align: center;
     
