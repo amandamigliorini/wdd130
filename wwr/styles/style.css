@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background-color:#6E0E0A;
+    background-color:#6E0E0A;  
     opacity: 0.8;
     font-family: Hind, Helvetica, sans-serif;
     display: grid;
@@ -294,6 +294,9 @@ h4 {
     }
     footer {
         margin-top: 25px;
+    }
+    header {
+        opacity: 1;
     }
 }
             
