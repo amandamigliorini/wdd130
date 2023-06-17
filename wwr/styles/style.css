@@ -300,7 +300,7 @@ h4 {
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
     grid-column: 1/4;
-    grid-row: 2/8;
+    grid-row: 2/9;
     
 }
 
@@ -311,7 +311,7 @@ h4 {
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
     grid-column: 7/11;
-    grid-row: 10/15;
+    grid-row: 10/16;
 }
 .bottom-rivers-img{    
     border: 10px solid #00144A ;
@@ -341,7 +341,7 @@ h4 {
 .middle-rivers-text{
     padding: 20px;
     grid-column: 1/7;
-    grid-row: 11/15;
+    grid-row: 10/15;
 }
 .bottom-rivers-text{
     padding: 20px;
