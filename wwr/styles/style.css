@@ -347,6 +347,7 @@ h4 {
     padding: 20px;
     grid-column: 4/11;
     grid-row: 18/25;
+    text-align: center;
 }
 
 .bottom-book{
@@ -438,6 +439,10 @@ h4 {
     }
     .middle-rivers-text{
         grid-column: 4/11;
+       
+    }
+    .bottom-book{
+        grid-column: 4/8;
        
     }
 
