@@ -407,6 +407,40 @@ h4 {
         display: block;
         margin: 0 auto;
     }
+    .bottom-rivers-img, .middle-rivers-img, .rivers-img{
+        height: auto;
+        margin: 0 auto;
+        
+       
+    }
+     .title-image {        
+        height: auto;
+        margin: 0 auto;
+        grid-row: 1/2;
+        grid-column: 1/10;
+    }
+    .middle-title-image {
+        
+        height: auto;
+        margin: 0 auto;
+        grid-row: 9/10;
+        grid-column: 1/10;
+    }
+    .bottom-title-image {
+        
+        height: auto;
+        margin: 0 auto;
+        grid-row: 17/18;
+        grid-column: 1/10;
+    }
+    .middle-rivers-img{
+        grid-column: 1/4;
+    }
+    .middle-rivers-text{
+        grid-column: 4/11;
+       
+    }
+
     footer {
         margin-top: 25px;
     }
