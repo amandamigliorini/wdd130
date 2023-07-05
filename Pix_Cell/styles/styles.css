@@ -54,6 +54,21 @@ main h2 {
 main section img {
     box-sizing: border-box;
 }
+about-main p {
+    color:#0E1F39;
+    text-align: center;
+    font-family: Poppins, Helvetica, sans-serif;
+}
+about-main h2 {
+    color:#0E1F39;
+    text-align: left;
+    font-family: Poppins, Helvetica, sans-serif;
+}
+
+about-main section img {
+    box-sizing: border-box;
+}
+
 
 footer {
     background-color: #25569F;
@@ -217,9 +232,13 @@ footer .social img {
     grid-template-columns: 80px auto;
     margin: 30px 0; 
 }
+.about-cards{
+    display: grid;
+    grid-template-columns: 80px auto;
+    margin: 30px 0; 
+}
 
-
-.setting-card {
+.setting-card{
     margin: 30px;
     grid-column: 1/11;
     grid-row: 6/13;
@@ -269,7 +288,6 @@ footer .social img {
     grid-column: 2/4;
     grid-row: 1/4;
     border-radius: 20px;
-    
     background-color: #FEFEFE;
 }
 .card h2{
@@ -286,28 +304,79 @@ footer .social img {
     grid-column: 1/13;
     grid-row: 4/8;
     color: #FEFEFE;
+
+}.history-card, .professional-card, .customer-card{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+.history-card, .professional-card, .customer-card {
+    margin: 30px;
+    grid-column: 1/11;
+    grid-row: 6/13;
+    border: 5px solid  #25569F;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: #0E1F39;
+}
+.history-card{
+    grid-row: 1/6;
+}
+.customer-card{
+    grid-row: 13/19;
 }
 
-.security-card:hover{
+.history-card h2, .professional-card h2, .customer-card h2{
+    padding: 10px;
+    grid-column: 5/13;
+    grid-row: 1/2;
+    font-family: 'Space Age', sans-serif;
+    text-align: center;
+    font-size: 1.8em;
+    color: #FEFEFE;
+}
+.customer-card h2{
+    padding-left: 50px;
+}
+.history-card p, .professional-card p, .customer-card ul{
+    padding: 10px;
+    padding-top: 0px;
+    grid-column: 5/13;
+    grid-row: 3/6;
+    color: #FEFEFE;    
+}
+.about-img{
+    padding: 10px;
+    grid-column: 1/3;
+    grid-row: 1/8;
+    width: 200%;
+    height: 350px;
+    border-radius: 50px;
+}
+.professional-card img{
+    grid-column: 9/13;
+    width: 100%;
+    height: 350px;
+}
+.professional-card p, .professional-card h2{
+    grid-column: 1/9;
+}
+.customer-card img{
+    height: 550px;
+}
+.customer-card li{
+    margin: 20px 150px;
+    font-size: 1.35em;
+    
+}
+
+.security-card:hover, .cell-card:hover, .history-card:hover, .setting-card:hover, 
+.collect-card:hover, .professional-card:hover, .customer-card:hover{
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
     
 }
-.cell-card:hover{
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
-    
-}
-.setting-card:hover{
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
-    
-}
-.collect-card:hover{
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
-    
-}
+  
+
 * {box-sizing:border-box}
 
 /* Slideshow container */
