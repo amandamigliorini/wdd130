@@ -54,20 +54,6 @@ main h2 {
 main section img {
     box-sizing: border-box;
 }
-about-main p {
-    color:#0E1F39;
-    text-align: center;
-    font-family: Poppins, Helvetica, sans-serif;
-}
-about-main h2 {
-    color:#0E1F39;
-    text-align: left;
-    font-family: Poppins, Helvetica, sans-serif;
-}
-
-about-main section img {
-    box-sizing: border-box;
-}
 
 
 footer {
