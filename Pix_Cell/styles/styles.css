@@ -45,7 +45,17 @@ main p {
     text-align: center;
     font-family: Poppins, Helvetica, sans-serif;
 }
-main h2 {
+main h2{
+    color:#0E1F39;
+    text-align: left;
+    font-family: Poppins, Helvetica, sans-serif;
+}
+main h3{
+    color:#0E1F39;
+    text-align: left;
+    font-family: Poppins, Helvetica, sans-serif;
+}
+main h4{
     color:#0E1F39;
     text-align: left;
     font-family: Poppins, Helvetica, sans-serif;
@@ -295,7 +305,7 @@ footer .social img {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
 }
-.history-card, .professional-card, .customer-card {
+.history-card, .professional-card, .customer-card, .contact-items {
     margin: 30px;
     grid-column: 1/11;
     grid-row: 6/13;
@@ -338,6 +348,7 @@ footer .social img {
     height: 350px;
     border-radius: 50px;
 }
+
 .professional-card img{
     grid-column: 9/13;
     width: 100%;
@@ -356,12 +367,84 @@ footer .social img {
 }
 
 .security-card:hover, .cell-card:hover, .history-card:hover, .setting-card:hover, 
-.collect-card:hover, .professional-card:hover, .customer-card:hover{
+.collect-card:hover, .professional-card:hover, .customer-card:hover, .contact-items:hover{
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
     
 }
+
+.contact-cards{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    
+}
+
+.contact-top{
+    grid-column: 1/13;
+    grid-row: 1/3;
+}
+.msg-contact-top{
+    color: #00144A;
+    text-shadow: 0 0 0.2em #FEFEFE, 0 0 0.2em #FEFEFE, 0 0 0.2em #FEFEFE;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 10px;
+    padding: 40px;
+    padding-bottom: 10px; 
+   
+}
+
+.contact-items{
+    grid-column: 1/13;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    
+}
+.contact-img{
+    
+    grid-column: 1/6;
+    grid-row: 1/12;
+    width: 120%;
+    height:100%;
+
+    border-radius: 50px;
+}
+.contact-info {
+    grid-column: 7/12;
+    grid-row: 2/12;
+    padding-left: 50px;   
+    padding-top: 80px;
+}
+.contact-info h3{
+    color: #FEFEFE; 
+    padding: 10px;
+
+}
+#background-bottom{
+    grid-column: 1/13;
+    grid-row: 13/16;
+    background-color:#25569F;
   
+}
+.contact-msg{
+    grid-column: 1/13;
+    grid-row: 13/16;
+    
+}
+.contact-msg h4{
+
+    color: #00144A;
+    text-shadow: 0 0 0.2em #FEFEFE, 0 0 0.2em #FEFEFE, 0 0 0.2em #FEFEFE;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 10px;
+    padding: 40px;
+    padding-bottom: 10px;
+    opacity: 1; 
+}
+
+
 
 * {box-sizing:border-box}
 
